@@ -12,6 +12,7 @@ body {
 }
 
 .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -53,6 +54,7 @@ body {
 }
 
 .hero-section {
+    width: 100%;
     display: flex;
     padding: 100px 150px;
 }
@@ -122,12 +124,14 @@ body {
 }
 
 .hero-section_row {
+    width: 100%;
     display: flex;
     padding: 150px 150px 100px 150px;
     justify-content: space-between;
 }
 
 .hero-section_banner {
+    width: 100%;
     display: flex;
     padding: 0 150px;
     justify-content: space-between;
@@ -162,6 +166,7 @@ body {
 }
 
 .products-section {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 100px 150px 300px 200px;
@@ -204,6 +209,7 @@ body {
 }
 
 .chat-section {
+    width: 100%;
     padding: 0 150px 0 150px;
 }
 
@@ -224,6 +230,7 @@ padding: 0 790px 50px 0px;
 }
 
 .chat-img_1 {
+    width: 100%;
     position: relative;
 }
 
@@ -256,6 +263,7 @@ padding: 0 790px 50px 0px;
 }
 
 .track-section {
+    width: 100%;
     position: absolute;
     z-index: 1;
     display: flex;
@@ -297,6 +305,7 @@ padding: 0 790px 50px 0px;
 }
 
 .review-section {
+    width: 100%;
     padding: 150px 150px;
 }
 
@@ -368,6 +377,7 @@ padding: 0 790px 50px 0px;
 }
 
 footer {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 50px 200px;
@@ -430,4 +440,8 @@ form label {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+
 }
