@@ -27,7 +27,7 @@ body {
 }
 
 .navlinks {
-    padding-top: 67px;
+    padding-top: 75px;
 }
 
 .navlinks a {
@@ -159,7 +159,7 @@ body {
 }
 
 .meet-up h2 {
-    font-size: 59px;
+    font-size: 49px;
     font-weight: 900px;
 }
 
@@ -197,7 +197,7 @@ body {
 }
 
 .products-text {
-    padding: 200px 0 0 276px;
+    padding: 200px 0 0 376px;
 }
 
 .products-text h3 {
@@ -219,7 +219,7 @@ body {
 }
 
 .chat-text {
-padding: 0 590px 50px 100px;
+padding: 0 800px 50px 100px;
 }
 
 .chat-text h3 {
@@ -249,14 +249,14 @@ padding: 0 590px 50px 100px;
 
 .chat-img_2 {
     position: absolute;
-    left: 1150px;
-    top: 35px;
+    left: 1000px;
+    top: 105px;
 }
 
 .chat-img_3 {
     position: absolute;
-    left: 1025px;
-    top: 470px;
+    left: 875px;
+    top: 540px;
 }
 
 .chat-img_3 img {
@@ -299,7 +299,7 @@ padding: 0 590px 50px 100px;
     padding-top: 280px;
     padding-left: 370px;
     top: 800px;
-    left: 500px;
+    left: 400px;
 }
 
 .track-text h3 {
@@ -311,6 +311,7 @@ padding: 0 590px 50px 100px;
 .track-text p {
     font-size: 16px;
     font-weight: 400px;
+    padding: 0 150px 0 0;
 }
 
 .review-section {
