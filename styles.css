@@ -16,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 70px;
+    padding: 75px 150px 0 150px;
     position: relative;
 }
 
@@ -34,25 +34,25 @@ nav .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 530px;
+    width: 45%;
     padding-right: 150px;
-    margin: 0;
+    margin: auto 10px auto 0;
 }
 
 nav .menu li a {
     font-size: 1.10rem;
+    color: #4b4b58;
     letter-spacing: 2px;
     text-transform: capitalize;
     cursor: pointer;
     transition: color 1s ease, border 1s ease;
-    color: black;
     text-decoration: none;
 }
 
 nav button a {
-    color: #fff;
     text-transform: uppercase;
     text-decoration: none;
+    color: #ffff;
 }
 
 nav button {
@@ -71,8 +71,7 @@ nav button {
 .li-btn button a {
     width: 150px;
     height: 45px;
-    background: #000;
-    color: #fff;
+    background: rgb(255, 255, 255);
     outline: none;
     border: none;
     cursor: pointer;
@@ -84,12 +83,14 @@ nav button {
 .li-btn {
     padding-left: 185px;
     display: none;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-section {
     width: 100%;
     display: flex;
-    padding: 100px 50px;
+    padding: 100px 150px;
 }
 
 .section-1 {
@@ -161,14 +162,14 @@ nav button {
 .hero-section_row {
     width: 100%;
     display: flex;
-    padding: 150px 50px 100px 50px;
+    padding: 150px 150px 100px 150px;
     justify-content: space-between;
 }
 
 .hero-section_banner {
     width: 100%;
     display: flex;
-    padding: 0 50px;
+    padding: 0 150px;
     justify-content: space-between;
 }
 
@@ -196,23 +197,29 @@ nav button {
     font-size: 49px;
     font-weight: 900;
     color: #4b4b58;
+    width: 539px;
 }
 
 .meet-up p {
     padding: 30px 35px 0 0;
     font-size: 17px;
     color: #a5a5b3;
+    width: 531px;
 }
 
 .products-section {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 100px 50px 50px 100px;
+    padding: 100px 150px 50px 150px;
 }
 
 .products-img {
     position: relative;
+}
+
+.products-img_1 {
+    padding-left: 50px;
 }
 
 .products-img_1 img {
@@ -233,7 +240,7 @@ nav button {
 }
 
 .products-text {
-    padding: 200px 0 0 376px;
+    padding: 200px 0 0 350px;
 }
 
 .products-text h3 {
@@ -241,6 +248,7 @@ nav button {
     font-weight: 900;
     padding-bottom: 30px;
     color: #4b4b58;
+    width: 563px;
 }
 
 .products-text p {
@@ -248,6 +256,7 @@ nav button {
     font-weight: 400;
     padding-right: 60px;
     color: #a5a5b3;
+    width: 551px;
 }
 
 .chat-section {
@@ -265,6 +274,7 @@ padding: 0 800px 50px 100px;
     font-weight: 900;
     padding-bottom: 30px;
     color: #4b4b58;
+    width: 434px;
 }
 
 .chat-text p {
@@ -272,6 +282,7 @@ padding: 0 800px 50px 100px;
     font-weight: 400;
     padding-right: 80px;
     color: #a5a5b3;
+    width: 444px;
 }
 
 .chat-img_1 {
@@ -309,7 +320,7 @@ padding: 0 800px 50px 100px;
     z-index: 1;
     display: flex;
     justify-content: space-between;
-    padding: 0 30px 0 130px;
+    padding: 0 150px;
 }
 
 .track-img_1 img{
@@ -347,18 +358,20 @@ padding: 0 800px 50px 100px;
     font-weight: 900;
     padding-bottom: 30px;
     color: #4b4b58;
+    width: 460px;
 }
 
 .track-text p {
     font-size: 16px;
     font-weight: 400;
-    padding: 0 150px 0 0;
+    padding: 0 21px 0 0;
     color: #a5a5b3;
+    width: 460px;
 }
 
 .review-section {
     width: 100%;
-    padding: 50px 50px;
+    padding: 50px 150px;
 }
 
 .review_h1_p {
@@ -428,6 +441,7 @@ padding: 0 800px 50px 100px;
 
 .review_p p {
     color: #a5a5b3;
+    width: 348px;
 }
 
 .review_p h3 {
@@ -447,8 +461,8 @@ padding: 0 800px 50px 100px;
 footer {
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding: 50px 50px 50px 50px;
+    justify-content: space-between;
+    padding: 50px 150px;
 }
 
 form label {
@@ -562,7 +576,7 @@ form label {
     .li-btn {
         display: block;
        color: #fff;
-       padding-right: 190px;
+       padding: 0;
     }
 
     .li-btn a {
@@ -669,6 +683,8 @@ form label {
         padding-left: 20px;
         text-align: center;
         padding-right: 30px;
+        padding-bottom: 20px;
+        
     }
 
     .section-1 h2 {
@@ -695,6 +711,22 @@ form label {
 
     .subsect-2 {
         padding: 20px 0 50px 0;
+    }
+
+    .subsect-2 {
+        position: relative;
+    }
+
+    .subsect-2 button {
+        position: absolute;
+    }
+
+    .google-store {
+        left: 40px;
+    }
+
+    .app-store {
+        left: 165px;
     }
 
     .phone1 {
@@ -801,7 +833,7 @@ form label {
 
     .products-img {
         position: relative;
-        padding: 0 0 0 120px;
+        padding: 0 0 0 118px;
     }
 
     .products-img_1 img {
