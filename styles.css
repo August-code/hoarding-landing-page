@@ -5,53 +5,85 @@
 }
 
 body {
-    font-family: mulish;
+    font-family: 'mulish';
     background-color: #ffffff;
     width: 100%;
 }
 
-.navbar {
-    width: 100%;
+nav {
+    min-height: 12vh;
+    min-width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    position: relative;
 }
 
-.logo {
-    padding-top: 55px;
-    padding-left: 50px;
+nav img {
+    height: 60px;
+    min-height: 40px;
 }
 
-.logo img {
-    width: 250px;
-    height: 57px;
+nav .menu-btn {
+    display: none;
 }
 
-.navlinks {
-    padding-top: 75px;
+nav .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 530px;
+    padding-right: 150px;
+    margin: 0;
 }
 
-.navlinks a {
+nav .menu li a {
+    font-size: 1.10rem;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: color 1s ease, border 1s ease;
+    color: black;
     text-decoration: none;
-    padding: 10px;
-    font-size: 15px;
-    font-weight: 400px;
-    color: #4b4b58;
 }
 
-.download-btn {
-    padding-top: 46px;
-    padding-right: 50px;
+nav button a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.download-btn button {
-    width: 184px;
-    height: 62px;
-    background-color: #4b4b58;
-    font-size: 17px;
-    font-weight: 500px;
-    font-family: Roboto;
-    color: #ffffff;
+nav button {
+    width: 150px;
+    height: 45px;
+    background: #000;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
     border-radius: 4px;
+}
+
+.li-btn button a {
+    width: 150px;
+    height: 45px;
+    background: #000;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.li-btn {
+    padding-left: 185px;
+    display: none;
 }
 
 .hero-section {
@@ -67,7 +99,7 @@ body {
 
 .subsect-1 h2 {
     font-size: 49px;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .subsect-1 p {
@@ -110,10 +142,10 @@ body {
 
 .card1 {
     position: absolute;
-    width: 200px;
-    height: 110px;
-    top: 30px;
-    right: 380px;
+    width: 160px;
+    height: 100px;
+    top: 40px;
+    right: 385px;
 }
 
 .card2 {
@@ -160,7 +192,7 @@ body {
 
 .meet-up h2 {
     font-size: 49px;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .meet-up p {
@@ -202,13 +234,13 @@ body {
 
 .products-text h3 {
     font-size: 34px;
-    font-weight: 900px;
+    font-weight: 900;
     padding-bottom: 30px;
 }
 
 .products-text p {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     padding-right: 60px;
 }
 
@@ -224,13 +256,13 @@ padding: 0 800px 50px 100px;
 
 .chat-text h3 {
     font-size: 34px;
-    font-weight: 900px;
+    font-weight: 900;
     padding-bottom: 30px;
 }
 
 .chat-text p {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     padding-right: 80px;
 }
 
@@ -304,13 +336,13 @@ padding: 0 800px 50px 100px;
 
 .track-text h3 {
     font-size: 34px;
-    font-weight: 900px;
+    font-weight: 900;
     padding-bottom: 30px;
 }
 
 .track-text p {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     padding: 0 150px 0 0;
 }
 
@@ -325,13 +357,13 @@ padding: 0 800px 50px 100px;
 
 .review_h1_p h1 {
     font-size: 34px;
-    font-weight: 900px;
+    font-weight: 900;
     padding-bottom: 30px;
 }
 
 .review_h1_p p {
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .review-img_p {
@@ -342,6 +374,10 @@ padding: 0 800px 50px 100px;
 .pre-next_white {
     padding-left: 20px;
     padding-top: 100px;
+}
+
+.pre-next_white img:hover {
+    cursor: pointer;
 }
 
 .pre-next_white img {
@@ -363,6 +399,10 @@ padding: 0 800px 50px 100px;
     padding-top: 100px;
 }
 
+.pre-next_red img:hover {
+    cursor: pointer;
+}
+
 .pre-next_red img {
     width: 80px;
     height: 80px;
@@ -376,13 +416,13 @@ padding: 0 800px 50px 100px;
 
 .review_p h3 {
     font-size: 25px;
-    font-weight: 900px;
+    font-weight: 900;
     padding-bottom: 30px;
 }
 
 .review_p h4 {
     font-size: 16px;
-    font-weight: 800px;
+    font-weight: 800;
     padding-bottom: 20px;
 }
 
@@ -395,13 +435,15 @@ footer {
 
 form label {
     font-size: 25px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 #subscribe {
     width: 300px;
     height: 55px;
     padding-left: 15px;
+    border: solid 1px grey;
+    outline: none;
 }
 
 #submit {
@@ -411,6 +453,11 @@ form label {
     color: #ffffff;
     font-size: 16px;
     border-radius: 4px;
+}
+
+#submit:hover {
+    font-size: 17px;
+    cursor: pointer;
 }
 
 .footer-navlinks {
@@ -426,13 +473,13 @@ form label {
 
 .footer-navlinks h3 {
     font-size: 16px;
-    font-weight: 800px;
+    font-weight: 800;
     padding-bottom: 10px;
 }
 
 .support h3 {
     font-size: 16px;
-    font-weight: 800px;
+    font-weight: 800;
     padding-bottom: 20px;
 }
 
@@ -452,11 +499,147 @@ form label {
     padding-top: 15px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    nav {
+       padding: 15px 40px 5px 40px;
+    }
+
+    nav .menu{
+       width: 35%;
+       padding: 0;
+    }
+
+    nav .menu li a {
+       font-size: 1rem;
+    }
+
+    nav img {
+       height: 45px;
+       min-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    nav {
+       padding:0;
+       z-index: 1;
+    }
+
+    nav .menu {
+       position: absolute;
+       top: 12vh;
+       min-width: 100%;
+       background: rgba(15, 20, 35, 0.99);
+       text-align: center;
+       display: none;
+       padding: 0;
+       justify-content: center;
+       height: 315px;
+    }
+
+    .li-btn {
+        display: block;
+       color: #fff;
+       padding-right: 190px;
+    }
+
+    .li-btn a {
+        font-size: 10px;
+    }
+
+    nav .menu li {
+       display: block;
+    }
+
+    nav .menu li a {
+       display: block;
+       padding: 20px;
+       top: -2px;
+       color: #fff;
+       transition: color 1s ease, padding 1s ease, background-color 1s ease;
+    }
+
+    nav li a:hover{
+       color: #B1D4E0;
+       padding-left: 30px;
+       background: rgba(177, 212, 224, 0.2);
+    }
+
+    .menu-icon {
+       cursor: pointer;
+       position: relative;
+       padding: 28px 20px;
+       user-select: none;
+       float: right;
+    }
+
+    .menu-icon span {
+       background: black;
+       display: block;
+       height: 2px;
+       position: relative;
+       width: 18px;
+       transition: background ease-out .2s;
+    }
+
+    .menu-icon span::before,
+    .menu-icon span::after {
+       background: black;
+       content: '';
+       display: block;
+       height: 100%;
+       position: absolute;
+       width: 100%;
+       transition: all ease-out .2s;
+    }
+
+    .menu-icon span::before {
+       top: 5px;
+    }
+
+    .menu-icon span::after {
+       top: -5px;
+    }
+
+    .menu-btn:checked ~ .menu-icon span {
+       background: transparent;
+    }
+
+    .menu-btn:checked ~ .menu-icon span::before {
+       transform: rotate(-45deg);
+       background: #E44C65;
+       top: 0;
+    }
+
+    .menu-btn:checked ~ .menu-icon span::after {
+       transform: rotate(45deg);
+       background: #E44C65;
+       top: 0;
+    }
+
+    .menu-btn {
+       display: none;
+    }
+
+    .menu-btn:checked ~ .menu{
+       display: block;
+    }
+
+    nav img {
+       height: 40px;
+       min-height: 35px;
+    }
+
+    nav .btn {
+       display: none;
+    }
+}
+
 @media only screen and (max-width: 425px) {
     .hero-section {
         display: flex;
         flex-direction: column;
-        padding: 50px 25px;
+        padding: 0 25px;
     }
 
     .section-1 {
@@ -496,14 +679,14 @@ form label {
         position: absolute;
         width: 128px;
         height: 272px;
-        right: 95px;
+        right: 75px;
     }
 
     .phone2 {
         position: absolute;
         width: 128px;
         height: 272px;
-        right: 178px;
+        right: 160px;
         top: 62px;
     }
 
@@ -512,7 +695,7 @@ form label {
         width: 89px;
         height: 55px;
         top: 30px;
-        right: 256px;
+        right: 240px;
     }
 
     .card2 {
@@ -520,14 +703,26 @@ form label {
         width: 89px;
         height: 55px;
         top: 252px;
-        right: 275px;
+        right: 257px;
     }
 
     .hero-section_row {
         display: flex;
         flex-direction: column;
-        padding: 320px 50px 50px 50px;
+        padding: 350px 50px 50px 50px;
         align-items: center;
+    }
+
+    .row-img1 {
+        padding-top: 10px;
+    }
+
+    .row-img2 {
+        padding-top: 10px;
+    }
+
+    .row-img3 {
+        padding-top: 10px;
     }
 
     .hero-section_banner {
@@ -652,7 +847,7 @@ form label {
 
     .chat-text {
         text-align: center;
-        padding: 0 410px 50px 50px;
+        padding: 0 375px 50px 50px;
     }
 
     .chat-text h3 {
@@ -683,13 +878,13 @@ form label {
 
     .track-img_1 {
         position: absolute;
-        top: 539px;
+        top: 550px;
         left: 150px;
     }
 
     .track-img_2 {
         position: absolute;
-        top: 708px;
+        top: 715px;
         left: 237px;
     }
 
@@ -772,9 +967,9 @@ form label {
 
     .review_p h3 {
         width: 184px;
-        margin: auto;
+        margin: 0 100px;
         padding-top: 75px;
-        padding-left: 13px;
+        padding-left: 0;
     }
 
     .review_p {
@@ -783,8 +978,8 @@ form label {
 
     .review_p h4 {
         text-align: center;
-        width: 102px;
-        margin: auto;
+        width: 210px;
+        margin: 0 85px;
     }
 
     .review_p p {
@@ -796,6 +991,7 @@ form label {
 
     footer {
         position: relative;
+        padding: 50px 50px 300px 50px;
     }
 
     form {
@@ -805,7 +1001,7 @@ form label {
     form label {
         position: absolute;
         bottom: 90px;
-        left: 120px;
+        left: 102px;
     }
 
     #subscribe {
@@ -817,7 +1013,7 @@ form label {
     .footer-navlinks {
         position: absolute;
         top: 180px;
-        left: 50px;
+        left: 40px;
     }
 
     .support {
@@ -825,4 +1021,16 @@ form label {
         top: 180px;
         left: 210px;
     }
+}
+
+@media only screen and (max-width: 400px) {
+    nav {
+       padding: 0;
+    }
+
+    nav img {
+       height: 35px;
+       min-height: 25px;
+    }
+
 }
