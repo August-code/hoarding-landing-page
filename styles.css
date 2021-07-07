@@ -662,7 +662,7 @@ form label {
 
     .track-text {
         padding-left: 300px;
-        top: 690px;
+        top: 600px;
     }
 
     .hero-section_row {
@@ -690,7 +690,7 @@ form label {
     }
 
     .track-img_1 {
-        top: 700px;
+        top: 670px;
     }
 
     .track-img_2 {
@@ -710,7 +710,7 @@ form label {
 @media only screen and (max-width: 1270px) {
 
     .products-text {
-        padding: 200px 0 0 160px;
+        padding: 200px 0 0 100px;
     }
 }
 
@@ -727,6 +727,7 @@ form label {
 }
 
 @media only screen and (max-width: 1160px) {
+    
     .track-text {
         padding-left: 235px;
     }
@@ -779,7 +780,7 @@ form label {
         width: 160px;
         height: 100px;
         top: 460px;
-        right: 385px;
+        right: 370px;
     }
 
     .products-img_1 img {
@@ -827,15 +828,9 @@ form label {
     }
 
     .track-img_2 {
-        top: 1044px;
+        top: 1015px;
         left: 365px;
     }
-
-    .chat-img_1 img {
-        height: 710px;
-    }
-
-
 }
 
 @media only screen and (max-width: 1137px) {
@@ -844,7 +839,7 @@ form label {
     }
 
     .banner-img {
-        padding-right: 50px;
+        padding-right: 10px;
     }
 
     .shola-img img {
@@ -898,11 +893,11 @@ form label {
     }
 
     .chat-img_2 {
-        left: 750px;
+        left: 690px;
     }
 
     .chat-img_3 {
-        left: 644px;
+        left: 600px;
     }
 
     .track-img_1 {
@@ -916,7 +911,7 @@ form label {
 
 @media only screen and (max-width: 1068px) {
     .track-text {
-        padding-left: 150px;
+        padding-left: 125px;
     }
 
     .products-text h3 {
@@ -962,6 +957,10 @@ form label {
 
     footer { 
         padding: 50px 50px;
+    }
+
+    .subsect-1 p {
+        padding: 20px 375px 0 0;
     }
 
 }
