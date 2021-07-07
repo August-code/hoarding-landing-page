@@ -726,6 +726,246 @@ form label {
     }
 }
 
+@media only screen and (max-width: 1160px) {
+    .track-text {
+        padding-left: 235px;
+    }
+
+    .track-text h3 {
+        font-size: 30px;
+    }
+
+    .chat-text h3 {
+        font-size: 30px;
+    }
+
+    .products-text h3 {
+        font-size: 30px;
+    }
+
+    .row-img1 img {
+        width: 300px;
+        height: 275px;
+    }
+
+    .row-img2 img {
+        width: 300px;
+        height: 275px;
+    }
+
+    .row-img3 img {
+        width: 300px;
+        height: 275px;
+    }
+
+    .phone1 {
+        width: 250px;
+        height: 510px;
+    }
+
+    .phone2 {
+        width: 250px;
+        height: 510px;
+    }
+
+    .card1 {
+        width: 160px;
+        height: 100px;
+        top: 34px;
+        right: 350px;
+    }
+
+    .card2 {
+        width: 160px;
+        height: 100px;
+        top: 460px;
+        right: 385px;
+    }
+
+    .products-img_1 img {
+        width: 250px;
+        height: 510px;
+    }
+
+    .products-img_2 img {
+        width: 165px;
+        height: 105px;
+
+    }
+
+    .products-img_2 {
+        left: 240px;
+        top: 300px;
+    }
+
+    .chat-img_2 img {
+        width: 250px;
+        height: 510px;
+    }
+
+    .chat-img_2 {
+        top: 175px;
+    }
+
+    .chat-img_3 img {
+        width: 165px;
+        height: 105px;
+    }
+
+    .chat-img_3 {
+        top: 540px;
+    }
+
+    .track-img_1 img {
+        width: 250px;
+        height: 510px;
+    }
+
+    .track-img_2 img {
+        width: 165px;
+        height: 105px;
+    }
+
+    .track-img_2 {
+        top: 1044px;
+        left: 365px;
+    }
+
+    .chat-img_1 img {
+        height: 710px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1137px) {
+    .review_p {
+        padding: 0 25px;
+    }
+
+    .banner-img {
+        padding-right: 50px;
+    }
+
+    .shola-img img {
+        width: 400px;
+        height: 265px;
+    }
+
+    .pre-next_red img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .pre-next_white img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .pre-next_white {
+        padding-left: 10px;
+    }
+
+    .pre-next_red {
+        padding-left: 10px;
+    }
+
+    .shola-img {
+        padding-left: 10px;
+    }
+
+    .hero-section_row {
+        padding: 50px 50px 100px 50px;
+    }
+
+    .subsect-1 h2 {
+        font-size: 40px;
+    }
+
+    .meet-up h2 {
+        font-size: 40px;
+    }
+
+    .subsect-2 button {
+        width: 175px;
+        height: 43px;
+    }
+}
+
+@media only screen and (max-width: 1094px) {
+    .track-text {
+        padding-left: 200px;
+    }
+
+    .chat-img_2 {
+        left: 750px;
+    }
+
+    .chat-img_3 {
+        left: 644px;
+    }
+
+    .track-img_1 {
+        left: 120px;
+    }
+
+    .track-img_2 {
+        left: 300px;
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .track-text {
+        padding-left: 150px;
+    }
+
+    .products-text h3 {
+        width: 525px;
+    }
+
+    .products-text p {
+        width: 500px;
+    }
+
+    .banner-img_1 img {
+        width: 363px;
+        height: 257px;
+    }
+
+    .banner-img_2 {
+        left: 190px;
+        top: 120px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .hero-section {
+        padding: 50px 25px;
+    }
+
+    .hero-section_banner {
+        padding: 0 25px;
+    }
+
+    .hero-section_row {
+        padding: 50px 25px 100px 25px;
+    }
+
+    .products-section {
+        padding: 75px 25px 0 25px;
+    }
+
+    .review-section {
+        padding: 50px 25px;
+    }
+
+    footer { 
+        padding: 50px 50px;
+    }
+
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     nav {
        padding: 15px 40px 5px 40px;
