@@ -88,7 +88,6 @@ nav button {
 }
 
 .hero-section {
-    width: 100%;
     display: flex;
     padding: 100px 150px;
 }
@@ -160,14 +159,12 @@ nav button {
 }
 
 .hero-section_row {
-    width: 100%;
     display: flex;
     padding: 150px 150px 100px 150px;
     justify-content: space-between;
 }
 
 .hero-section_banner {
-    width: 100%;
     display: flex;
     padding: 0 150px;
     justify-content: space-between;
@@ -208,7 +205,6 @@ nav button {
 }
 
 .products-section {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 100px 150px 50px 150px;
@@ -316,7 +312,6 @@ padding: 0 800px 50px 100px;
 }
 
 .track-section {
-    width: 100%;
     z-index: 1;
     display: flex;
     justify-content: space-between;
@@ -370,7 +365,6 @@ padding: 0 800px 50px 100px;
 }
 
 .review-section {
-    width: 100%;
     padding: 50px 150px;
 }
 
@@ -459,7 +453,6 @@ padding: 0 800px 50px 100px;
 }
 
 footer {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 50px 150px;
