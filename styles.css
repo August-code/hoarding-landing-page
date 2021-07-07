@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -961,37 +962,6 @@ form label {
 
     .subsect-1 p {
         padding: 20px 375px 0 0;
-    }
-
-}
-
-@media only screen and (max-width: 1019px) {
-    .meet-up {
-        padding: 20px 15px 20px 0;
-    }
-
-    .products-text {
-        padding: 200px 25px 0 100px;
-    }
-
-    .subsect-1 p {
-        padding: 20px 250px 0 0;
-    }
-
-    .track-img_1 {
-        top: 630px;
-    }
-
-    .track-img_2 {
-        top: 980px;
-    }
-
-    .track-text {
-        top: 550px;
-    }
-
-    .card2 {
-        right: 345px;
     }
 }
 
