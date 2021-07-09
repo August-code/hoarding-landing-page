@@ -40,7 +40,7 @@ nav .menu {
 }
 
 nav .menu li a {
-    font-size: 1.10rem;
+    font-size: 13px;
     color: #4b4b58;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -93,7 +93,7 @@ nav button {
 }
 
 .section-1 {
-    padding-top: 320px;
+    padding-top: 220px;
     padding-right: 150px;
 }
 
@@ -486,12 +486,29 @@ form label {
     cursor: pointer;
 }
 
+.footer-nav {
+    display: flex;
+}
+
 .footer-navlinks {
     display: flex;
     flex-direction: column;
+    padding-right: 30px;
+}
+
+.footer-navlinks_2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
 }
 
 .footer-navlinks a {
+    text-decoration: none;
+    padding-top: 15px;
+    color: #4b4b58;
+}
+
+.footer-navlinks_2 a {
     text-decoration: none;
     padding-top: 15px;
     color: #4b4b58;
@@ -643,6 +660,49 @@ form label {
 @media only screen and (max-width: 1300px) {
     .review_p {
         padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .hero-section {
+        padding: 100px 75px;
+    }
+
+    .hero-section_row {
+        padding: 225px 75px 100px 75px;
+    }
+
+    .hero-section_banner {
+        padding: 0 75px;
+    }
+
+    .products-text {
+        padding: 200px 0 0 200px;
+    }
+
+    .chat-img_3 {
+        top: 545px;
+    }
+
+    .review-section {
+        padding: 50px 75px;
+    }
+
+    footer {
+        padding: 50px 75px 100px 75px;
+    }
+
+    .track-text {
+        padding-left: 295px;
+        top: 750px;
+    }
+
+    .track-img_1 {
+        top: 760px;
+    }
+
+    .track-img_2 {
+        top: 1176px;
     }
 }
 
@@ -953,6 +1013,14 @@ form label {
     .subsect-1 p {
         padding: 20px 375px 0 0;
     }
+
+    .track-text h3 {
+        width: 480px;
+    }
+
+    .track-text p {
+        width: 400px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -972,6 +1040,452 @@ form label {
     nav img {
        height: 45px;
        min-height: 40px;
+    }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .section-1 {
+        padding-top: 20px;
+        padding-left: 30px;
+        text-align: center;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        
+    }
+
+    .section-1 h2 {
+        font-size: 39px;
+        font-weight: 900;
+        width: 618px;
+    }
+
+    .section-1 p {
+        font-size: 16px;
+        font-weight: 400;
+        width: 500px;
+        padding: 24px 0 0 114px;
+    }
+
+    .subsect-2 button img {
+        width: 94px;
+    }
+
+    .subsect-2 button {
+        width: 114px;
+        height: 34px;
+    }
+
+    .subsect-2 {
+        padding: 20px 0 50px 0;
+    }
+
+    .subsect-2 {
+        position: relative;
+    }
+
+    .subsect-2 button {
+        position: absolute;
+    }
+
+    .google-store {
+        left: 170px;
+    }
+
+    .app-store {
+        left: 325px;
+    }
+
+    .phone1 {
+        position: absolute;
+        width: 128px;
+        height: 272px;
+        right: 185px;
+    }
+
+    .phone2 {
+        position: absolute;
+        width: 128px;
+        height: 272px;
+        right: 270px;
+        top: 62px;
+    }
+
+    .card1 {
+        position: absolute;
+        width: 89px;
+        height: 55px;
+        top: 30px;
+        right: 350px;
+    }
+
+    .card2 {
+        position: absolute;
+        width: 89px;
+        height: 55px;
+        top: 252px;
+        right: 380px;
+    }
+
+    .hero-section_row {
+        display: flex;
+        flex-direction: column;
+        padding: 350px 50px 50px 50px;
+        align-items: center;
+    }
+
+    .row-img1 {
+        padding-top: 10px;
+    }
+
+    .row-img1 img {
+        width: 400px;
+        height: 375px;
+    }
+
+    .row-img2 img {
+        width: 400px;
+        height: 375px;
+    }
+
+    .row-img3 img {
+        width: 400px;
+        height: 375px;
+    }
+
+    .row-img2 {
+        padding-top: 10px;
+    }
+
+    .row-img3 {
+        padding-top: 10px;
+    }
+
+    .hero-section_banner {
+        display: flex;
+        flex-direction: column;
+        padding: 0 31px;
+    }
+
+    .banner-img_1 img {
+        width: 463px;
+        height: 310px;
+    }
+
+    .banner-img_2 img {
+        width: 196px;
+        height: 135px;
+    }
+
+    .banner-img {
+        position: relative;
+        padding-right: 0;
+        left: 120px;
+    }
+
+    .banner-img_2 {
+        position: absolute;
+        top: 147px;
+        left: 220px;
+    }
+
+    .meet-up h2 {
+        font-size: 30px;
+        font-weight: 900;
+        width: 471px;
+        margin: 0 100px;
+    }
+
+    .meet-up p {
+        font-size: 16px;
+        width: 370px;
+        padding: 25px 0 0 0;
+        margin: 0 150px;
+    }
+
+    .meet-up {
+        text-align: center;
+        padding: 20px 0 0 0;
+        margin: 0 15px;
+    }
+
+    .products-section {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0 50px 0;
+    }
+
+    .products-img {
+        position: relative;
+        padding: 0 0 0 118px;
+    }
+
+    .products-img_1 img {
+        width: 128px;
+        height: 272px;
+    }
+
+    .products-img_1 {
+        padding-left: 150px;
+    }
+
+    .products-img_2 img {
+        width: 105px;
+        height: 74px;
+    }
+
+    .products-img_2 {
+        position: absolute;
+        z-index: 1;
+        left: 374px;
+        top: 165px;
+    }
+
+    .products-text {
+        padding: 30px 0 0 0px;
+        text-align: center;
+    }
+
+    .products-text h3 {
+        font-size: 30px;
+        width: 411px;
+        margin-left: 160px;
+        padding-bottom: 20px;
+    }
+
+    .products-text p {
+        width: 305px;
+        margin: 0 207px;
+        padding-right: 0;
+    }
+
+    .chat-section {
+        display: flex;
+        flex-direction: column;
+        padding-top: 300px;
+    }
+
+    .chat-img_2 img {
+        width: 128px;
+        height: 272px;
+    }
+
+    .chat-img_2 {
+        position: absolute;
+        left: 365px;
+        top: 0px;
+    }
+
+    .chat-img_3 {
+        position: absolute;
+        left: 290px;
+        top: 180px;
+    }
+
+    .chat-img_3 img {
+        width: 105px;
+        height: 74px;
+    }
+
+    .chat-text {
+        text-align: center;
+        padding: 0 375px 50px 50px;
+    }
+
+    .chat-text h3 {
+        width: 450px;
+        font-size: 30px;
+        padding-bottom: 20px;
+        margin: 0 95px;
+    }
+
+    .chat-text p {
+        width: 330px;
+        font-size: 16px;
+        padding-right: 0px;
+        margin: 0 155px;
+    }
+
+    .chat-img_1 img {
+        height: 500px;
+    }
+
+    .track-img_1 img{
+        width: 128px;
+        height: 272px;
+    }
+
+    .track-img_2 img {
+        width: 105px;
+        height: 74px;
+    }
+
+    .track-img_1 {
+        position: absolute;
+        top: 576px;
+        left: 230px;
+    }
+
+    .track-img_2 {
+        position: absolute;
+        top: 740px;
+        left: 335px;
+    }
+
+    .track-text {
+        position: absolute;
+        text-align: center;
+        padding-top: 280px;
+        padding-left: 0;
+        top: 595px;
+        left: 0;
+    }
+
+    .track-text h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        width: 425px;
+        margin: 0 147px;
+    }
+
+    .track-text p {
+        font-size: 16px;
+        width: 350px;
+        padding: 0;
+        margin: 0 188px;
+    }
+
+    .review-section {
+        padding: 20px 20px;
+    }
+
+    .review_h1_p h1 {
+        padding-bottom: 10px;
+    }
+
+    .review_h1_p p {
+        width: 321px;
+        margin: 0 200px;
+    }
+
+    .review-img_p {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-top: 10px;
+    }
+
+    .shola-img {
+        padding-top: 10px;
+        padding-left: 230px;
+    }
+
+    .shola-img img {
+        width: 256px;
+        height: 181px;
+    }
+
+    .pre-next_white img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .pre-next_white {
+        padding: 0;
+        position: absolute;
+        top: 215px;
+        left: 285px;
+    }
+
+    .pre-next_red img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .pre-next_red {
+        padding: 0;
+        position: absolute;
+        top: 215px;
+        left: 385px;
+    }
+
+    .review_p h3 {
+        width: 200px;
+        margin: 0 252px;
+        padding-top: 75px;
+        padding-left: 13px;
+    }
+
+    .review_p {
+        padding: 0;
+    }
+
+    .review_p h4 {
+        text-align: center;
+        width: 210px;
+        margin: 0 248px;
+    }
+
+    .review_p p {
+        width: 348px;
+        margin: 0 175px;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    footer {
+        position: relative;
+        padding: 50px 50px 300px 50px;
+    }
+
+    form {
+        position: absolute;
+    }
+
+    form label {
+        position: absolute;
+        bottom: 85px;
+        left: 5px;
+    }
+
+    #subscribe {
+        width: 230px;
+        height: 56px;
+        padding-left: 8px;
+    }
+
+    #submit {
+        width: 171px;
+        font-size: 16px;
+    }
+
+    .footer-navlinks {
+        position: absolute;
+        top: 22px;
+        left: 505px;
+    }
+
+    .footer-navlinks_2 {
+        padding-top: 0;
+        padding-left: 553px;
+    }
+
+    .support {
+        position: absolute;
+        top: 180px;
+        left: 50px;
+    }
+
+    .socials {
+        padding-top: 0;
+        padding-left: 655px;
+        margin: -60px -352px;
     }
 }
 
@@ -1091,7 +1605,171 @@ form label {
     }
 }
 
+@media only screen and (max-width: 540px) {
+    nav {
+        padding: 0 25px;
+    }
+
+    .section-1 h2 {
+        font-size: 35px;
+        padding-right: 213px;
+        width: 614px;
+    }
+
+    .section-1 p {
+        padding: 24px 0 0 0;
+        width: 395px;
+    }
+
+    .google-store {
+        left: 68px;
+    }
+
+    .app-store {
+    left: 210px;
+    }
+
+    .phone1 {
+        right: 104px;
+    }
+
+    .phone2 {
+        right: 187px;
+    }
+
+    .card1 {
+        right: 260px;
+        top: 25px;
+    }
+
+    .card2 {
+        right: 285px;
+    }
+
+    .banner-img_1 {
+        right: 112px;
+    }
+
+    .banner-img_2 {
+        top: 162px;
+        left: 131px;
+    }
+
+    .meet-up h2 {
+        margin: 0 -8px;
+    }
+
+    .meet-up p {
+        margin: 0 40px;
+    }
+
+    .products-img_1 {
+        padding-left: 40px;
+    }
+
+    .products-img_2 {
+        left: 265px;
+    }
+
+    .products-text h3 {
+        margin-left: 65px;
+    }
+
+    .products-text p {
+        margin: 0 115px;
+    }
+
+    .chat-text h3 {
+        margin: 0 -8px;
+    }
+
+    .chat-text p {
+        margin: 0 50px;
+    }
+
+    .chat-img_2 {
+        left: 245px;
+    }
+
+    .chat-img_3 {
+        left: 167px;
+    }
+
+    .track-text {
+        left: -90px;
+    }
+
+    .track-text h3 {
+        width: 423px;
+        margin: 0 147px;
+    }
+
+    .track-img_1 {
+        left: 170px;
+    }
+
+    .track-img_2 {
+        left: 266px;
+    }
+
+    .review_h1_p p {
+        margin: 0 95px;
+    }
+
+    .shola-img {
+        padding-left: 125px;
+    }
+
+    .pre-next_white {
+        left: 185px;
+    }
+
+    .pre-next_red {
+        left: 280px;
+    }
+
+    .review_p h3 {
+        margin: 0 163px;
+        width: 205px;
+    }
+
+    .review_p h4 {
+        margin: 0 153px;
+    }
+
+    .review_p p {
+        margin: 0 80px;
+    }
+
+    .footer-navlinks {
+        top: 180px;
+        left: 53px;
+    }
+
+    .footer-navlinks_2 {
+        padding-top: 156px;
+        padding-left: 255px;
+    }
+
+    .support {
+        top: 360px;
+    }
+
+    .socials {
+        padding-left: 478px;
+        margin: -60px -224px;
+    }
+
+    footer {
+        padding-bottom: 200px;
+    }
+}
+
 @media only screen and (max-width: 425px) {
+
+    nav {
+        padding: 0 25px;
+    }
     .hero-section {
         display: flex;
         flex-direction: column;
@@ -1399,7 +2077,7 @@ form label {
 
     .review_h1_p p {
         width: 321px;
-        margin: 0 35px;
+        margin: 0 9px;
     }
 
     .review-img_p {
@@ -1469,7 +2147,7 @@ form label {
 
     footer {
         position: relative;
-        padding: 50px 50px 300px 50px;
+        padding: 50px 50px 200px 50px;
     }
 
     form {
@@ -1479,13 +2157,18 @@ form label {
     form label {
         position: absolute;
         bottom: 90px;
-        left: 102px;
+        left: 73px;
     }
 
     #subscribe {
-        width: 185px;
+        width: 147px;
         height: 56px;
-        padding-left: 25px;
+        padding-left: 8px;
+    }
+
+    #submit {
+        width: 120px;
+        font-size: 14px;
     }
 
     .footer-navlinks {
@@ -1501,9 +2184,101 @@ form label {
     }
 }
 
+@media only screen and (max-width: 411px) {
+
+    .section-1 h2 {
+        width: 540px;
+    }
+
+    .card2 {
+        right: 240px;
+    }
+
+    .card1 {
+        right: 220px;
+        top: 24px;
+    }
+
+    .phone1 {
+        right: 60px;
+    }
+
+    .phone2 {
+        right: 143px;
+    }
+
+    .shola-img {
+        padding-left: 55px;
+    }
+
+    .pre-next_white {
+        left: 109px;
+    }
+
+    .review_p h3 {
+        margin: 0 93px;
+    }
+
+    .review_p h4 {
+        margin: 0 77px;
+    }
+
+    .review_h1_p p {
+        margin: 0 24px;
+    }
+
+    .banner-img {
+        right: 7px;
+    }
+
+    .banner-img_1 {
+        right: -1px;
+    }
+
+    .meet-up h2 {
+        margin: 0 20px;
+    }
+
+    .meet-up p {
+        padding: 25px 16px 0 0;
+        margin: 0;
+    }
+
+    .chat-text p {
+        margin: 0 -8px;
+    }
+
+    .support {
+        left: 40px;
+        top: 355px;
+    }
+
+    form label {
+        left: 89px;
+    }
+
+    #subscribe {
+        width: 183px;
+    }
+
+    .footer-navlinks_2 {
+        padding-top: 161px;
+        padding-left: 185px;
+    }
+
+    .socials {
+        padding: 20px 0 0 115px;
+        margin: 0 -50px;
+    }
+
+    footer {
+        padding-bottom: 100px;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     nav {
-       padding: 0;
+       padding: 0 25px;
     }
 
     nav img {
@@ -1520,7 +2295,7 @@ form label {
     }
     
     .section-1 h2 {
-        padding-right: 35px;
+        padding-right: 250px;
     }
 
     .section-1 p {
@@ -1541,6 +2316,10 @@ form label {
 
     .app-store {
         left: 148px;
+    }
+
+    .banner-img_1 {
+        right: -10px;
     }
 
     .track-text h3 {
@@ -1651,6 +2430,99 @@ form label {
     }
 
     .support {
-        left: 160px;
+        left: 40px;
+        top: 355px;
+    }
+
+    #subscribe {
+        width: 165px;
+    }
+
+    #submit {
+        width: 110px;
+    }
+
+    .footer-navlinks_2 {
+        padding-top: 161px;
+        padding-left: 145px;
+    }
+
+    .socials {
+        padding: 20px 0 0 115px;
+        margin: 0 -50px;
+    }
+
+    footer {
+        padding-bottom: 225px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .section-1 p {
+        padding: 24px 52px 0 0;
+    }
+
+    .section-1 h2 {
+        padding-right: 257px;
+    }
+
+    .banner-img_1 img {
+        width: 300px;
+        height: 193px;
+    }
+
+    .banner-img_1 {
+        right: -7px;
+    }
+
+    .meet-up h2 {
+        margin: 0 -7px;
+    }
+
+    .meet-up p {
+        margin: 0 -35px;
+    }
+
+    .products-text h3 {
+        margin-left: 17px;
+    }
+
+    .chat-text h3 {
+        padding-right: 55px;
+    }
+
+    .chat-text p {
+        padding-right: 55px;
+        margin: 0 -5px;
+    }
+
+    .track-text p {
+        padding: 0 10px;
+        margin: 0 -8px;
+    }
+
+    .review_h1_p {
+        margin: 0 0;
+    }
+
+    .review_p p {
+        padding: 0 35px 0 0;
+    }
+
+    .review_h1_p p {
+        margin: 0 8px;
+    }
+
+    .footer-navlinks_2 {
+        padding-left: 130px;
+        padding-top: 160px;
+    }
+
+    form label {
+        left: 75px;
+    }
+
+    footer {
+        padding-bottom: 225px;
     }
 }
