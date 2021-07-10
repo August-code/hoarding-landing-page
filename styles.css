@@ -8,6 +8,7 @@ body {
     font-family: 'mulish';
     background-color: #ffffff;
     width: 100%;
+    height: 100%;
 }
 
 nav {
@@ -995,7 +996,7 @@ form label {
     }
 
     .hero-section_row {
-        padding: 50px 25px 100px 25px;
+        padding: 175px 25px 100px 25px;
     }
 
     .products-section {
@@ -1187,6 +1188,7 @@ form label {
         position: relative;
         padding-right: 0;
         left: 120px;
+        width: 500px;
     }
 
     .banner-img_2 {
@@ -1441,7 +1443,7 @@ form label {
 
     footer {
         position: relative;
-        padding: 50px 50px 300px 50px;
+        padding: 50px 50px 150px 50px;
     }
 
     form {
@@ -1612,8 +1614,9 @@ form label {
 
     .section-1 h2 {
         font-size: 35px;
-        padding-right: 213px;
-        width: 614px;
+        padding-right: 0;
+        width: 525px;
+        margin: 0 -70px;
     }
 
     .section-1 p {
@@ -1644,6 +1647,12 @@ form label {
 
     .card2 {
         right: 285px;
+    }
+
+    .banner-img {
+        left: 121px;
+        width: 334px;
+        margin: 0;
     }
 
     .banner-img_1 {
@@ -1697,6 +1706,7 @@ form label {
 
     .track-text {
         left: -90px;
+        width: 525px;
     }
 
     .track-text h3 {
@@ -2184,10 +2194,58 @@ form label {
     }
 }
 
+@media only screen and (max-width: 414px) {
+    .socials {
+        padding-left: 165px;
+        margin: -4px -90px;
+    }
+
+    .support {
+        position: absolute;
+        top: 340px;
+        left: 40px;
+    }
+
+    .footer-navlinks_2 {
+        padding-left: 185px;
+    }
+
+    .chat-text p {
+        margin: 0 -8px;
+    }
+
+    .chat-text {
+        padding-right: 364px;
+    }
+
+    .meet-up p {
+        margin: 0 -6px;
+    }
+
+    .track-text {
+        margin: 0 -14px;
+        width: 399px;
+    }
+
+    .banner-img {
+        margin: 0 -123px;
+    }
+
+    .banner-img_1 {
+        right: 2px;
+    }
+
+    .section-1 h2 {
+        margin: 0 -45px;
+        padding-right: 0;
+        width: 410px;
+    }
+}
+
 @media only screen and (max-width: 411px) {
 
     .section-1 h2 {
-        width: 540px;
+        width: 400px;
     }
 
     .card2 {
@@ -2205,6 +2263,10 @@ form label {
 
     .phone2 {
         right: 143px;
+    }
+
+    .track-text {
+        width: 400px;
     }
 
     .shola-img {
@@ -2229,6 +2291,7 @@ form label {
 
     .banner-img {
         right: 7px;
+        margin: 0 -128px;
     }
 
     .banner-img_1 {
@@ -2246,6 +2309,10 @@ form label {
 
     .chat-text p {
         margin: 0 -8px;
+    }
+
+    .chat-text {
+        padding-right: 360px;
     }
 
     .support {
@@ -2272,7 +2339,7 @@ form label {
     }
 
     footer {
-        padding-bottom: 100px;
+        padding-bottom: 200px;
     }
 }
 
@@ -2295,7 +2362,9 @@ form label {
     }
     
     .section-1 h2 {
-        padding-right: 250px;
+        padding-right: 0px;
+        width: 325px;
+        margin: 0 -20px;
     }
 
     .section-1 p {
@@ -2395,13 +2464,19 @@ form label {
     }
 
     .track-img_1 {
-        top: 605px;
+        top: 610px;
         left: 119px;
     }
 
     .track-img_2 {
         top: 770px;
         left: 205px;
+    }
+
+    .track-text {
+        top: 620px;
+        left: 28px;
+        width: 350px;
     }
 
     .shola-img {
@@ -2419,6 +2494,10 @@ form label {
 
     .review_p h4 {
         margin: 0 60px;
+    }
+
+    .review_h1_p p {
+        margin: 0 6px;
     }
 
     .pre-next_white {
@@ -2459,11 +2538,12 @@ form label {
 
 @media only screen and (max-width: 360px) {
     .section-1 p {
-        padding: 24px 52px 0 0;
+        padding: 24px 0 0 0;
+        margin: 0 -25px;
     }
 
     .section-1 h2 {
-        padding-right: 257px;
+        padding-right: 15px;
     }
 
     .banner-img_1 img {
@@ -2473,6 +2553,7 @@ form label {
 
     .banner-img_1 {
         right: -7px;
+        width: 325px;
     }
 
     .meet-up h2 {
@@ -2488,12 +2569,32 @@ form label {
     }
 
     .chat-text h3 {
-        padding-right: 55px;
+        padding-right: 0;
+        margin: 0 -25px;
+    }
+
+    .chat-text {
+        padding-right: 0;
+        width: 325px
     }
 
     .chat-text p {
-        padding-right: 55px;
-        margin: 0 -5px;
+        padding-right: 0;
+        margin: 0 -24px;
+    }
+
+    .track-text {
+        top: 555px;
+        left: 25px;
+        width: 325px;
+    }
+
+    .track-img_1 {
+        top: 535px;
+    }
+
+    .track-img_2 {
+        top: 700px;
     }
 
     .track-text p {
@@ -2506,7 +2607,8 @@ form label {
     }
 
     .review_p p {
-        padding: 0 35px 0 0;
+        padding: 0;
+        width: 325px;
     }
 
     .review_h1_p p {
@@ -2524,5 +2626,388 @@ form label {
 
     footer {
         padding-bottom: 225px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .section-1 h2  {
+        padding-right: 0;
+        width: 300px;
+        margin: 0 -28px;
+    }
+
+    .section-1 p{
+        width: 300px;
+        margin: 0 -30px;
+    }
+
+    .card1 {
+        right: 190px;
+    }
+
+    .card2 { 
+        right: 192px;
+    }
+
+    .app-store {
+        left: 134px;
+    }
+
+    .chat-text {
+        padding: 0 278px 50px 42px;
+    }
+
+    .chat-text h3 {
+        width: 300px;
+    }
+
+    .banner-img {
+        right: 0px;
+        margin: 0 -127px;
+        width: 300px;
+    }
+
+    .banner-img_1 {
+        right: 13px;
+        width: 300px;
+    }
+
+    .banner-img_2 {
+        left: 160px;
+    }
+
+    .meet-up p {
+        width: 300px;
+    }
+
+    .meet-up h2 {
+        margin: 0 -30px;
+    }
+
+    .products-text h3 {
+        margin-left: -1px;
+    }
+
+    .products-img_1 {
+        padding-left: 0px;
+    }
+
+    .products-img_2 {
+        top: 165px;
+    }
+
+    .shola-img {
+        padding-left: 16px;
+    }
+
+    .chat-text {
+        width: 300px;
+    }
+
+    .chat-text p {
+        width: 300px;
+        margin: 0 -26px;
+    }
+
+    .review_p p {
+        padding: 0;
+        width: 275px;
+        margin: 0 5px;
+    }
+
+    .track-img_1 {
+        top: 580px;
+    }
+
+    .track-text h3 {
+        margin: 0 30px;
+    }
+
+    .track-text {
+        width: 300px;
+        top: 590px;
+    }
+
+    .track-text p {
+        width: 300px;
+    }
+
+    .review_p h4 {
+        margin: 0 37px;
+    }
+
+    .pre-next_white {
+        left: 50px;
+    }
+
+    .review_p h3 {
+        margin: 0 50px;
+    }
+
+    .review_h1_p p {
+        width: 300px;
+        margin: 0 -7px;
+    }
+
+    form label {
+        left: 0px;
+        top: -30px;
+    }
+
+    #subscribe {
+        width: 125px;
+    }
+
+    #submit {
+        width: 100px;
+    }
+
+    .footer-navlinks_2 {
+        padding-left: 92px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+
+    nav {
+        padding: 0 15px;
+    }
+
+    .section-1 p {
+        padding: 24px 0 0 0;
+        margin: 0 -30px;
+        width: 250px;
+    }
+
+    .section-1 h2 {
+        font-size: 22px;
+        padding-right: 0;
+        width: 275px;
+        margin: 0 -43px;
+    }
+
+    .google-store {
+        left: -20px;
+    }
+
+    .app-store {
+        left: 95px;
+    }
+
+    .phone1 {
+        right: 12px;
+
+    }
+
+    .phone2 {
+        right: 70px;
+    }
+
+    .card1 {
+        right: 135px;
+    }
+
+    .card2 {
+        right: 144px;
+    }
+
+    .row-img1 img {
+        width: 250px;
+        height: 225px;
+    }
+
+    .row-img2 img {
+        width: 250px;
+        height: 225px;
+    }
+
+    .row-img3 img {
+        width: 250px;
+        height: 225px;
+    }
+
+    .banner-img {
+        width: 110px;
+        right: 106px;
+        margin: 0 0;
+    }
+
+    .banner-img_1 img {
+        width: 250px;
+        height: 138px;
+    }
+
+    .banner-img_1 {
+        right: 0;
+        width: 250px;
+        margin: 0 -137px;
+    }
+
+    .banner-img_2 img {
+        width: 100px;
+        height: 70px;
+    }
+
+    .banner-img_2 {
+        top: 65px;
+        left: 8px;
+    }
+
+    .meet-up h2 {
+        margin: 0 -32px;
+        width: 250px;
+    }
+
+    .meet-up p {
+        margin: 0 -35px;
+        width: 250px;
+    }
+
+    .products-text h3 {
+        margin-left: 16px;
+        width: 250px;
+    }
+
+    .products-text p {
+        width: 250px;
+    }
+
+    .products-img {
+        padding: 0 0 0 50px;
+    }
+
+
+    .products-img_1 {
+        padding-left: 0px;
+    }
+
+
+    .products-img_2 {
+        left: 125px;
+    }
+
+    .chat-text {
+        padding: 0 0 50px 0;
+        width: 250px;
+    }
+
+    .chat-text h3 {
+        padding-right: 0;
+        width: 250px;
+        margin: 0 6px;
+    }
+
+    .chat-text p {
+        padding-right: 0;
+        margin: 0 10px;
+        width: 250px;
+    }
+
+    .chat-img_2 {
+        left: 95px;
+    }
+
+    .chat-img_3 {
+        left: 50px;
+    }
+
+    .track-text {
+        width: 250px;
+        top: 615px;
+    }
+
+    .track-img_2 {
+        left: 145px;
+        top: 780px;
+    }
+
+    .track-img_1 {
+        left: 50px;
+        top: 620px;
+    }
+
+    .track-text p {
+        padding: 0 10px;
+        margin: 0 0;
+        width: 250px;
+    }
+
+    .track-text h3 {
+        margin: 10px;
+        padding-bottom: 0px;
+    }
+
+    .review_h1_p {
+        margin: 0 0;
+    }
+
+    .review_p p {
+        padding: 0;
+        width: 250px;
+        margin: 0 -5px;
+    }
+
+    .review_p h4 {
+        margin: 0 20px;
+    }
+
+    .review_p h3 {
+        margin: 0 35px;
+    }
+
+
+    .review_h1_p p {
+        margin: 0 0;
+        width: 250px;
+    }
+
+    .shola-img {
+        padding: 0;
+        margin: 0 -4px;
+    }
+    .shola-img img {
+        width: 250px;
+        height: 175px;
+    }
+
+    .pre-next_white {
+        left: 50px;
+        top: 200px;
+    }
+
+    .pre-next_red {
+        left: 150px;
+        top: 200px;
+    }
+
+    .footer-navlinks_2 {
+        padding-left: 65px;
+        padding-top: 159px;
+    }
+
+    form label {
+        left: 36px;
+        top: -20px;
+    }
+
+    #subscribe {
+        width: 110px;
+        height: 40px;
+    }
+
+    #submit {
+        width: 70px;
+        height: 43px;
+        font-size: 11px;
+    }
+
+    footer {
+        padding-bottom: 225px;
+    }
+
+    .socials {
+        padding: 20px 0 0 0px;
+        margin: 0 -3px;
     }
 }
