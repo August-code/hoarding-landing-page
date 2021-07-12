@@ -41,7 +41,7 @@ nav .menu {
 }
 
 nav .menu li a {
-    font-size: 13px;
+    font-size: 17.6px;
     color: #4b4b58;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -72,7 +72,7 @@ nav button {
 .li-btn button a {
     width: 150px;
     height: 45px;
-    background: rgb(255, 255, 255);
+    background: black;
     outline: none;
     border: none;
     cursor: pointer;
@@ -987,6 +987,10 @@ form label {
 
 @media only screen and (max-width: 1024px) {
 
+    nav .menu {
+    padding-right: 150px;
+    }
+
     .hero-section {
         padding: 50px 25px;
     }
@@ -1500,6 +1504,7 @@ form label {
     nav .menu {
        position: absolute;
        top: 12vh;
+       left: 0;
        min-width: 100%;
        background: rgba(15, 20, 35, 0.99);
        text-align: center;
@@ -1792,13 +1797,13 @@ form label {
         text-align: center;
         padding-right: 30px;
         padding-bottom: 20px;
-        
     }
 
     .section-1 h2 {
         font-size: 25px;
         font-weight: 900;
         width: 321px;
+        margin: 0;
     }
 
     .section-1 p {
@@ -1906,12 +1911,13 @@ form label {
     .banner-img {
         position: relative;
         padding-right: 0;
+        width: 200px;
     }
 
     .banner-img_2 {
         position: absolute;
         top: 147px;
-        left: 220px;
+        left: 107px;
     }
 
     .meet-up h2 {
@@ -1925,6 +1931,7 @@ form label {
         font-size: 16px;
         width: 336px;
         padding: 25px 0 0 0;
+        margin: 0;
     }
 
     .meet-up {
@@ -1973,7 +1980,7 @@ form label {
     .products-text h3 {
         font-size: 25px;
         width: 324px;
-        margin-left: 40px;
+        margin-left: 48px;
         padding-bottom: 20px;
     }
 
@@ -2026,6 +2033,7 @@ form label {
         width: 330px;
         font-size: 16px;
         padding-right: 0px;
+        margin: 0 -7px;
     }
 
     .chat-img_1 img {
@@ -2061,6 +2069,7 @@ form label {
         padding-left: 0;
         top: 595px;
         left: 0;
+        width: 400px;
     }
 
     .track-text h3 {
@@ -2087,7 +2096,7 @@ form label {
 
     .review_h1_p p {
         width: 321px;
-        margin: 0 9px;
+        margin: 0 32px;
     }
 
     .review-img_p {
@@ -2167,11 +2176,11 @@ form label {
     form label {
         position: absolute;
         bottom: 90px;
-        left: 73px;
+        left: 103px;
     }
 
     #subscribe {
-        width: 147px;
+        width: 210px;
         height: 56px;
         padding-left: 8px;
     }
@@ -2187,10 +2196,19 @@ form label {
         left: 40px;
     }
 
+    .footer-navlinks_2 {
+        padding-left: 195px;
+    }
+
     .support {
         position: absolute;
-        top: 180px;
-        left: 210px;
+        top: 360px;
+        left: 40px;
+    }
+
+    .socials {
+        padding-left: 169px;
+        margin: -10px -70px;
     }
 }
 
